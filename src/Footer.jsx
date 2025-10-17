@@ -85,17 +85,20 @@ const Footer = () => {
                 </div>
 
                 {/* Bottom bar (bottom right) */}
-                <div className="bg-[#1F1F1F] rounded-2xl border border-white/10 p-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-                    <div className="text-white/70 text-sm">
-                        <span className="inline-flex items-center gap-2">
+                <div className="bg-[#1F1F1F] rounded-2xl border border-white/10 p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+                    <div className="text-white/70 text-sm w-full">
+                        <div className="flex flex-wrap items-center justify-center sm:justify-start gap-x-2 gap-y-1 text-center sm:text-left">
                             <span className="w-1.5 h-1.5 rounded-full bg-[#D4C463]"></span>
-                            MADE BY <span className="underline cursor-pointer font-semibold text-white">PAVEL_GOLA</span> - POWERED BY{' '}
-                            <span className="underline cursor-pointer font-semibold text-white">WEBFLOW</span>
-                        </span>
+                            <span className="whitespace-nowrap">MADE BY</span>
+                            <span className="underline cursor-pointer font-semibold text-white whitespace-nowrap">PAVEL_GOLA</span>
+                            <span className="select-none text-white/40">-</span>
+                            <span className="whitespace-nowrap">POWERED BY</span>
+                            <span className="underline cursor-pointer font-semibold text-white whitespace-nowrap">WEBFLOW</span>
+                        </div>
                     </div>
                     <button
                         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                        className="inline-flex items-center gap-2 text-white/80 hover:text-white text-sm cursor-pointer"
+                        className="inline-flex items-center gap-2 text-white/80 hover:text-white text-sm cursor-pointer sm:whitespace-nowrap shrink-0"
                     >
                         TO TOP
                         <ArrowUp size={18} />

@@ -9,6 +9,25 @@ A responsive landing experience for a fashion brand with multiple sections: anim
 - motion (for future spring/easing)
 - ESLint 9
 
+## 🧭 Setup Of Project (Clone & Run)
+If you want to run this project locally from GitHub:
+
+```powershell
+# 1) Clone the repo
+git clone https://github.com/Henil29/Alvy-Cohort.git
+cd Alvy-Cohort
+
+# 2) Install dependencies
+npm install
+
+# 3) Start the dev server
+npm run dev
+
+# Optional: build and preview
+npm run build
+npm run preview
+```
+
 ## 🚀 Quick Start
 1. Install dependencies
 	- Windows PowerShell
@@ -27,25 +46,6 @@ A responsive landing experience for a fashion brand with multiple sections: anim
 	```powershell
 	npm run preview
 	```
-
-## 🧭 Setup for Others (Clone & Run)
-If you want to run this project locally from GitHub:
-
-```powershell
-# 1) Clone the repo
-git clone https://github.com/Henil29/Alvy-Cohort.git
-cd Alvy-Cohort
-
-# 2) Install dependencies
-npm install
-
-# 3) Start the dev server
-npm run dev
-
-# Optional: build and preview
-npm run build
-npm run preview
-```
 
 Notes:
 - You need Node.js 18+ installed.
@@ -82,13 +82,3 @@ src/
 - `Twelfth.jsx`: Image with center overlay arrow + label pill; title/desc; read-more row.
 - `Thirteenth.jsx`: Newsletter with three responsive layouts (lg grid, md compact, sm stacked).
 - `Footer.jsx`: Left brand panel, right link grid (row-span), bottom bar aligned under left.
-
-## 🧪 Linting
-Run ESLint locally:
-```powershell
-npm run lint
-```
-
-## 📝 Notes
-- If a hover underline spans the full column, ensure the underline is placed on an inline `span` inside the `li`.
-- If a button doesn’t show a hand cursor, add `cursor-pointer` or check for `pointer-events: none` on parent overlays.

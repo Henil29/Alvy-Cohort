@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'font1';
+  src: url(/src/assets/fonts/63cffc0a3942456e003bc265_Chillax-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'font2';
+  src: url(/src/assets/fonts/63cffc20aa8997095067596f_Satoshi-Light.woff) format('woff');
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  overflow-x: hidden;
+}

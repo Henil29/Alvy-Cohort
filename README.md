@@ -2,17 +2,6 @@
 
 A responsive landing experience for a fashion brand with multiple sections: animated navbar, hero overlays, services grid, various feature sections, scroll-driven marquee, social cards, blog cards, newsletter banner, and a multi-column footer.
 
-## ✨ Features
-- Responsive Navbar with mobile drawer, cart badge, and CTA
-- Hero with positioned overlays (headline, subtext, actions)
-- Services/Grid sections with icons and CTAs
-- Scroll-driven horizontal marquee (vertical scroll ➜ horizontal movement)
-- Social cards grid with top-left icons and top-right arrow button (`Tenth.jsx`)
-- Blog cards with image overlay action, label pill, and read-more row (`Twelfth.jsx`)
-- Newsletter banner with separate desktop / tablet / mobile layouts (`Thirteenth.jsx`)
-- Footer with left brand panel, three link columns, and bottom bar (`Footer.jsx`)
-- Custom font via `@font-face` and Tailwind arbitrary family
-
 ## 🧰 Tech Stack
 - React 19 + Vite 7
 - Tailwind CSS 4
@@ -38,6 +27,30 @@ A responsive landing experience for a fashion brand with multiple sections: anim
 	```powershell
 	npm run preview
 	```
+
+## 🧭 Setup for Others (Clone & Run)
+If you want to run this project locally from GitHub:
+
+```powershell
+# 1) Clone the repo
+git clone https://github.com/Henil29/Alvy-Cohort.git
+cd Alvy-Cohort
+
+# 2) Install dependencies
+npm install
+
+# 3) Start the dev server
+npm run dev
+
+# Optional: build and preview
+npm run build
+npm run preview
+```
+
+Notes:
+- You need Node.js 18+ installed.
+- This project uses Tailwind CSS v4, which is already configured via `@tailwindcss/vite` and `src/index.css`.
+- If you change port or host, add flags to the dev script (e.g., `vite --port 5173`).
 
 ## 📂 Project Structure
 ```
